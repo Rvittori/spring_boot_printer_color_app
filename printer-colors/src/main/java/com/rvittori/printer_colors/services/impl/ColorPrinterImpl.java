@@ -4,7 +4,9 @@ import com.rvittori.printer_colors.services.BluePrinter;
 import com.rvittori.printer_colors.services.ColorPrinter;
 import com.rvittori.printer_colors.services.GreenPrinter;
 import com.rvittori.printer_colors.services.RedPrinter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ColorPrinterImpl implements ColorPrinter {
 
     private RedPrinter redPrinter;
