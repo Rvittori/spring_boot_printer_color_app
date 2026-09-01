@@ -13,17 +13,17 @@ public class PrinterConfig {
 
     @Bean
     public BluePrinter bluePrinter() {
-        return new EnglishBluePrinter();
+        return new SpanishBluePrinter();
     }
 
     @Bean
     public RedPrinter redPrinter() {
-        return new EnglishRedPrinter();
+        return new SpanishRedPrinter();
     }
 
     @Bean
     public GreenPrinter greenPrinter() {
-        return new EnglishGreenPrinter();
+        return new SpanishGreenPrinter();
     }
 
     @Bean
